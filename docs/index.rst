@@ -1,5 +1,5 @@
-Welcome to Python Testing Advanced's documentation!
-======================================
+Python Testing Advanced's documentation!
+========================================
 
 .. toctree::
    :maxdepth: 2

@@ -20,10 +20,11 @@
 #
 import os
 import sys
-
 import python_testing_advanced
 
+
 sys.path.insert(0, os.path.abspath('..'))
+
 
 # -- General configuration ---------------------------------------------
 
@@ -33,7 +34,17 @@ sys.path.insert(0, os.path.abspath('..'))
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode']
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo'
+]
+
+intersphinx_mapping = {
+    'sphinx': ('http://sphinx-doc.org/', None),
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -48,7 +59,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Python Testing Advanced'
+project = u'python_testing_advanced'
 copyright = u"2018, Julio Antúnez Tarín"
 author = u"Julio Antúnez Tarín"
 
@@ -77,7 +88,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = False
+todo_include_todos = True
 
 
 # -- Options for HTML output -------------------------------------------
@@ -85,13 +96,27 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a
 # theme further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'canonical_url': '',
+    'analytics_id': '',
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    # 'vcs_pageview_mode': '',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -130,7 +155,7 @@ latex_elements = {
 # [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'python_testing_advanced.tex',
-     u'Python Testing Advanced Documentation',
+     u'python_testing_advanced Documentation',
      u'Julio Antúnez Tarín', 'manual'),
 ]
 
@@ -141,7 +166,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'python_testing_advanced',
-     u'Python Testing Advanced Documentation',
+     u'python_testing_advanced Documentation',
      [author], 1)
 ]
 
@@ -153,7 +178,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'python_testing_advanced',
-     u'Python Testing Advanced Documentation',
+     u'python_testing_advanced Documentation',
      author,
      'python_testing_advanced',
      'One line description of project.',
