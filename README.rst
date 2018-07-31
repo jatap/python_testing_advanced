@@ -13,11 +13,13 @@ Python Testing Advanced
         :target: https://python-testing-advanced.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-
 .. image:: https://pyup.io/repos/github/jatap/python_testing_advanced/shield.svg
      :target: https://pyup.io/repos/github/jatap/python_testing_advanced/
      :alt: Updates
 
+.. image:: https://pyup.io/repos/github/jatap/python_testing_advanced/python-3-shield.svg
+     :target: https://pyup.io/repos/github/jatap/python_testing_advanced/
+     :alt: Python 3
 
 Information
 -----------
