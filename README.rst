@@ -19,18 +19,15 @@ Python Testing Advanced
      :alt: Updates
 
 
+Information
+-----------
 
-Python Testing Advanced
+Python Testing Advanced Example
 
-
-* Free software: MIT license
+* Free software: `MIT license`_
 * Documentation: https://python-testing-advanced.readthedocs.io.
 
-
-Features
---------
-
-* TODO
+.. _`MIT license`: https://github.com/jatap/python_testing_advanced/blob/master/LICENSE
 
 Credits
 -------
