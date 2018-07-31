@@ -10,7 +10,7 @@ backcall==0.1.0
 bumpversion==0.5.3
 certifi==2018.4.16
 chardet==3.0.4
-click==6.2
+click==6.7
 colorama==0.3.9
 CommonMark==0.7.5
 coverage==4.5.1
