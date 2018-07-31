@@ -9,9 +9,17 @@ Python Testing Advanced's documentation!
    installation
    usage
    modules
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Extra:
+
+   features
    contributing
    authors
    history
+
 
 Indices and tables
 ==================
