@@ -1,6 +1,13 @@
 Changelog
 =========
 
+v0.3.4 (2018-07-31)
+-------------------
+
+Documentation Changes
+^^^^^^^^^^^^^^^^^^^^^
+- [rst] move CHANGELOG.md to HISTORY.rst
+
 v0.3.3 (2018-07-31)
 -------------------
 
