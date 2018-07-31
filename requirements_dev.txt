@@ -39,7 +39,7 @@ ptyprocess==0.6.0
 pudb==2018.1
 py==1.5.4
 pycodestyle==2.4.0
-pyflakes==1.6.0
+pyflakes==2.0.0
 Pygments==2.2.0
 pyparsing==2.2.0
 pytest==3.7.0
@@ -52,7 +52,6 @@ pytest-mock==1.10.0
 pytest-pep8==1.0.6
 pytest-runner==4.2
 pytest-xdist==1.22.5
--e git+git@github.com:jatap/python_testing_advanced.git@4b75e6cf802e01bf7227575137482725a5ba4d22#egg=python_testing_advanced
 pytz==2018.5
 PyYAML==3.13
 requests==2.19.1
