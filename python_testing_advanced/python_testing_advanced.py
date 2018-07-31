@@ -6,7 +6,7 @@
 
 .. module:: python_testing_advanced.python_testing_advanced
     :platform: OS X
-    :synopsis: sphinx advanced tutorial project
+    :synopsis: python testing advanced tutorial project
 
 .. moduleauthor:: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
 
