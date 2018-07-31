@@ -1,6 +1,13 @@
 Changelog
 =========
 
+v0.3.3 (2018-07-31)
+-------------------
+
+Administration and Chores
+^^^^^^^^^^^^^^^^^^^^^^^^^
+- [files] delete deprecated HISTORY.md
+
 v0.3.2 (2018-07-31)
 -------------------
 
