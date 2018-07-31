@@ -18,6 +18,11 @@ Python Testing Advanced's documentation!
    features
    contributing
    authors
+
+.. toctree::
+   :maxdepth: 2
+   :caption: History:
+
    history
 
 
