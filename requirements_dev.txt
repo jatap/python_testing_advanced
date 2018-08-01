@@ -52,7 +52,7 @@ pyparsing==2.2.0
 pytest==3.7.0
 pytest-cache==1.0
 pytest-cov==2.5.1
-pytest-flakes==3.0.2
+pytest-flakes==4.0.0
 pytest-forked==0.2
 pytest-mocha==0.2.1
 pytest-mock==1.10.0
