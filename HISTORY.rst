@@ -1,6 +1,13 @@
 Changelog
 =========
 
+v0.3.5 (2018-08-02)
+-------------------
+
+Administration and Chores
+^^^^^^^^^^^^^^^^^^^^^^^^^
+- [packages] update requirements_dev file with bare ones
+
 v0.3.4 (2018-07-31)
 -------------------
 
