@@ -8,7 +8,7 @@ from python_testing_advanced import python_testing_advanced
 
 
 def test_init(mocker):
-    """python_testing_advanced :: Integration :: python_testing_advanced :: init"""  # nopep8
+    """Integration :: python_testing_advanced :: init"""
 
     mocker.patch.object(python_testing_advanced, 'help')
     mocker.patch.object(python_testing_advanced, '__name__', '__main__')
