@@ -18,7 +18,7 @@ pycodestyle==2.5.0
 pyflakes==2.1.0
 pynvim==0.3.2
 pytest-cache==1.0
-pytest-codestyle
+pytest-codestyle==1.4.0
 pytest-cov==2.6.1
 pytest-flakes==4.0.0
 pytest-forked==1.0.2
