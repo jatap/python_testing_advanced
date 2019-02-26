@@ -8,7 +8,7 @@ auto-changelog==0.1.7
 bumpversion==0.5.3
 coverage==4.5.2
 docutils==0.14
-flake8==3.7.6
+flake8==3.7.7
 ipython==6.5.0
 pip==19.0.3
 powerline-status==2.7
