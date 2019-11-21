@@ -12,7 +12,7 @@ flake8==3.7.6
 ipython==6.5.0
 pip==19.0.3
 powerline-status==2.7
-pudb==2018.1
+pudb==2019.2
 pur
 pycodestyle==2.5.0
 pyflakes==2.1.0
