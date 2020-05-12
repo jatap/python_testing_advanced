@@ -14,7 +14,7 @@ pip==19.0.3
 powerline-status==2.7
 pudb==2018.1
 pur
-pycodestyle==2.5.0
+pycodestyle==2.6.0
 pyflakes==2.1.0
 pynvim==0.3.2
 pytest-cache==1.0
