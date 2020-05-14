@@ -5,7 +5,7 @@ PyYAML==3.13
 Pygments==2.3.1
 Sphinx==1.8.4
 auto-changelog==0.1.7
-bumpversion==0.5.3
+bumpversion==0.6.0
 coverage==4.5.2
 docutils==0.14
 flake8==3.7.6
